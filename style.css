@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%; /* Obrázek se přizpůsobí šířce kontejneru */
+    max-width: 500px;
     height: auto; /* Zachová poměr stran */
 }
 
@@ -50,7 +51,7 @@ body {
     line-height: 1.6;
 }
 
-/* Hlavní obsah a postranní panel */
+/* Hlavní obsah */
 main {
     float: left;
     width: 70%;
@@ -76,9 +77,35 @@ footer {
 
 /* Pro obrazovky menší než 768px */
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    nav a {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    main {
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
 }
 /* Pro obrazovky menší než 480px */
 @media (max-width: 480px) {
+    header {
+        padding: 20px;
+        font-size: 1.2em;
+    }
 
+    nav a {
+        padding: 8px 10px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
