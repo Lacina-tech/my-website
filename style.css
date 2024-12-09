@@ -11,9 +11,10 @@
 header {
     background-color: orange;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     font-family: Arial, sans-serif;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%); /* změna tvaru hlavičky */
 }
 
 /* Navigace */
@@ -31,9 +32,12 @@ nav a {
     color: orange;
     font-weight: bold;
     font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 nav a:hover {
+    background-color: #d3d3d3;
     color: darkorange;
 }
 
