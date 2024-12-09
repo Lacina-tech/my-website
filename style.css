@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-
+img {
+    max-width: 100%; /* Obrázek se přizpůsobí šířce kontejneru */
+    height: auto; /* Zachová poměr stran */
+}
 
 /* Hlavička */
 header {
