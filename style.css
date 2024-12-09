@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-img {
+.my_img {
     max-width: 100%; /* Obrázek se přizpůsobí šířce kontejneru */
     max-width: 500px;
     height: auto; /* Zachová poměr stran */
