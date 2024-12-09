@@ -8,6 +8,7 @@
 .my_img {
     max-width: 100%; /* Obrázek se přizpůsobí šířce kontejneru */
     max-width: 500px;
+    justify-content: center;
     height: auto; /* Zachová poměr stran */
 }
 
@@ -18,7 +19,7 @@ header {
     padding: 30px;
     text-align: center;
     font-family: Arial, sans-serif;
-    clip-path: polygon(0 0, 100% 0, 0 100%, 100% 80%); /* změna tvaru hlavičky */
+    /*clip-path: polygon(0 0, 100% 0, 0 100%, 100% 80%);  změna tvaru hlavičky */
 }
 
 /* Navigace */
