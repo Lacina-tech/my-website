@@ -6,7 +6,7 @@
 }
 
 .my_img {
-    max-width: 100%; /* Obrázek se přizpůsobí šířce kontejneru */
+    max-width: 70%; /* Obrázek se přizpůsobí šířce kontejneru */
     max-width: 500px;
     justify-content: center;
     height: auto; /* Zachová poměr stran */
